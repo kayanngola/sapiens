@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela de Preços de Espaços</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --destaque: #85774b;
+        --destaque-grad: linear-gradient(90deg, #85774b 0%, #b8a97a 100%);
+      }
+      .bg-destaque {
+        background-color: var(--destaque);
+      }
+      .text-destaque {
+        color: var(--destaque);
+      }
+      .border-destaque {
+        border-color: var(--destaque);
+      }
+      .hover\:bg-destaque:hover {
+        background-color: var(--destaque);
+        color: #fff;
+      }
+      .bg-destaque-grad {
+        background: var(--destaque-grad);
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(6px);
+        box-shadow: 0 4px 32px 0 rgba(133, 119, 75, 0.08);
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-100 via-[#f6f3ec] to-[#eae6d9] min-h-screen font-sans"
+  >
+    <header
+      class="bg-destaque-grad text-white p-10 shadow-xl rounded-b-3xl flex flex-col items-center"
+    >
+      <img src="institutosapiens_logo.jpeg" alt="Instituto Sapiens Logo" class="w-32 h-32 object-contain mb-4 rounded-full border-4 border-white shadow-lg bg-white" style="background: white;" />
+      <h1 class="text-5xl font-extrabold tracking-tight drop-shadow-lg mb-2">
+        Tabela de Preços de Espaços
+      </h1>
+      <p class="mt-2 text-lg opacity-90 max-w-2xl text-center">
+        Consulte valores, períodos e QR Codes para reserva dos espaços
+      </p>
+    </header>
+    <main class="container mx-auto px-4 py-12">
+      <section
+        class="glass rounded-3xl border-destaque/20 p-8 shadow-lg max-w-4xl mx-auto"
+      >
+        <h2
+          class="text-3xl font-bold text-destaque mb-6 flex items-center gap-2 justify-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z"
+            />
+          </svg>
+          Preços de Aluguer
+        </h2>
+        <div id="precos" class="overflow-x-auto">
+          <!-- Conteúdo dinâmico via JS/Google Sheets -->
+        </div>
+        <div class="mt-8 text-center text-sm text-gray-500">
+          Consulte o QR Code para preço atualizado
+          e reserva online.
+        </div>
+      </section>
+      <section
+        class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto"
+      >
+        <div
+          class="glass rounded-2xl border-destaque/20 p-6 shadow flex flex-col items-center"
+        >
+          <h3 class="text-xl font-semibold text-destaque mb-2">
+            Períodos Disponíveis
+          </h3>
+          <div id="periodos" class="space-y-2 w-full text-center"></div>
+        </div>
+        <div
+          class="glass rounded-2xl border-destaque/20 p-6 shadow flex flex-col items-center"
+        >
+          <h3 class="text-xl font-semibold text-destaque mb-2">Espaços</h3>
+          <div id="espacos" class="space-y-2 w-full text-center"></div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="text-center text-destaque py-8 text-base bg-white border-t border-destaque/20 mt-16 shadow-inner rounded-t-3xl"
+    >
+      &copy; 2025 Tabela de Preços de Espaços
+    </footer>
+    <!-- Script para futura integração com Google Sheets -->
+    <script src="main.js"></script>
+  </body>
+</html>
