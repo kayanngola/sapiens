@@ -347,6 +347,10 @@ function filterData(data) {
 
 // Função para abrir modal de detalhes
 function openModal(data) {
+  // Corrige bug do select: força o blur do input de busca antes de abrir o modal
+  if (document.activeElement && document.activeElement.id === 'search-input') {
+    document.activeElement.blur();
+  }
   ensureModalHtml();
   const modal = document.getElementById("preco-modal");
   const modalContent = document.getElementById("preco-modal-content");

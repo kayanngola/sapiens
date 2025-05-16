@@ -1,0 +1,205 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "1",
+      "type": "rectangle",
+      "x": 50,
+      "y": 50,
+      "width": 200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "seed": 1,
+      "version": 1,
+      "versionNonce": 1
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "x": 70,
+      "y": 70,
+      "text": "Hikvision DS-K1T321MFWX",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left"
+    },
+    {
+      "id": "3",
+      "type": "arrow",
+      "x": 150,
+      "y": 110,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [0, 0],
+        [0, 50]
+      ],
+      "strokeColor": "#000000"
+    },
+    {
+      "id": "4",
+      "type": "rectangle",
+      "x": 50,
+      "y": 170,
+      "width": 200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "seed": 2,
+      "version": 1,
+      "versionNonce": 2
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "x": 90,
+      "y": 190,
+      "text": "Banco de Dados APEX",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left"
+    },
+
+    {
+      "id": "6",
+      "type": "rectangle",
+      "x": 350,
+      "y": 50,
+      "width": 200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "seed": 3,
+      "version": 1,
+      "versionNonce": 3
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "x": 370,
+      "y": 70,
+      "text": "Hikvision DS-K1T321MFWX",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left"
+    },
+    {
+      "id": "8",
+      "type": "arrow",
+      "x": 450,
+      "y": 110,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [0, 0],
+        [100, 0]
+      ],
+      "strokeColor": "#000000"
+    },
+    {
+      "id": "9",
+      "type": "rectangle",
+      "x": 550,
+      "y": 50,
+      "width": 200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "seed": 4,
+      "version": 1,
+      "versionNonce": 4
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "x": 580,
+      "y": 70,
+      "text": "Middleware (C#/.NET)\n- Valida\n- Normaliza\n- Log\n- Retry",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "left"
+    },
+    {
+      "id": "11",
+      "type": "arrow",
+      "x": 650,
+      "y": 110,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [0, 0],
+        [0, 50]
+      ],
+      "strokeColor": "#000000"
+    },
+    {
+      "id": "12",
+      "type": "rectangle",
+      "x": 550,
+      "y": 170,
+      "width": 200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "seed": 5,
+      "version": 1,
+      "versionNonce": 5
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "x": 590,
+      "y": 190,
+      "text": "Oracle ORDS\nAPI REST",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left"
+    },
+    {
+      "id": "14",
+      "type": "arrow",
+      "x": 650,
+      "y": 230,
+      "width": 0,
+      "height": 0,
+      "points": [
+        [0, 0],
+        [-100, 0]
+      ],
+      "strokeColor": "#000000"
+    },
+    {
+      "id": "15",
+      "type": "rectangle",
+      "x": 350,
+      "y": 170,
+      "width": 200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "seed": 6,
+      "version": 1,
+      "versionNonce": 6
+    },
+    {
+      "id": "16",
+      "type": "text",
+      "x": 380,
+      "y": 190,
+      "text": "Aplicação APEX",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left"
+    }
+  ],
+  "appState": {}
+}
